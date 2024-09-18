@@ -40,6 +40,9 @@ WeatherData currentWeather = new WeatherData();
 currentWeather.Scale = 'F';
 currentWeather.Temperature = 100;
 currentWeather.Humidity = "30%";
+
+currentWeather.ShowWeatherData();
+
 currentWeather.Convert();
 
 currentWeather.ShowWeatherData();
